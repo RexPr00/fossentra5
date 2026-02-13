@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FOSSENTRA | Institutional AI Infrastructure & GPU Investment</title>
+    <meta
+      name="description"
+      content="FOSSENTRA provides institutional AI infrastructure investment access through GPU capacity as infrastructure assets with risk-managed allocation frameworks."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise-overlay"></div>
+    <div class="floating-glow glow-a parallax" data-parallax="0.14"></div>
+    <div class="floating-glow glow-b parallax" data-parallax="0.1"></div>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#" class="logo">FOSSENTRA</a>
+        <nav class="desktop-nav">
+          <a href="#market" data-i18n="nav.market">Market Dynamics</a>
+          <a href="#thesis" data-i18n="nav.thesis">Allocation Thesis</a>
+          <a href="#dashboard" data-i18n="nav.metrics">Live Metrics</a>
+          <a href="#faq" data-i18n="nav.faq">FAQ</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <div class="lang-dropdown" id="langDropdown">
+            <button class="pill-btn lang-btn" id="langButton" aria-haspopup="true" aria-expanded="false">
+              <span id="currentLanguage">English</span>
+              <span class="chev">▾</span>
+            </button>
+            <ul class="lang-menu" id="langMenu">
+              <li><button data-lang="en">English</button></li>
+              <li><button data-lang="de">Deutsch</button></li>
+              <li><button data-lang="fr">Français</button></li>
+              <li><button data-lang="es">Español</button></li>
+              <li><button data-lang="it">Italiano</button></li>
+            </ul>
+          </div>
+          <a class="pill-btn cta-btn" href="#contact" data-i18n="nav.cta">Request Consultation</a>
+          <button class="burger" id="burger" aria-label="menu">☰</button>
+        </div>
+      </div>
+      <div class="mobile-drawer" id="mobileDrawer">
+        <a href="#market" data-i18n="nav.market">Market Dynamics</a>
+        <a href="#thesis" data-i18n="nav.thesis">Allocation Thesis</a>
+        <a href="#dashboard" data-i18n="nav.metrics">Live Metrics</a>
+        <a href="#faq" data-i18n="nav.faq">FAQ</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+        <div class="mobile-lang"></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero light-section">
+        <div class="mesh-bg"></div>
+        <svg class="hero-strokes" viewBox="0 0 1200 600" preserveAspectRatio="none">
+          <path d="M0 480C210 350 360 520 610 370C860 220 980 330 1200 200" />
+          <path d="M0 560C180 470 330 600 560 480C790 360 980 440 1200 320" />
+        </svg>
+        <div class="particles" id="particles"></div>
+        <div class="container hero-grid">
+          <div>
+            <h1 data-i18n="hero.title">Institutional AI Infrastructure &amp; GPU Capacity Investment</h1>
+            <p data-i18n="hero.p1">
+              AI infrastructure investment is entering a structural expansion phase as enterprise compute demand growth accelerates
+              across model training, inference, and sovereign digital modernization.
+            </p>
+            <p data-i18n="hero.p2">
+              FOSSENTRA provides institutional capital exposure to GPU capacity as infrastructure assets, positioning portfolios beyond software speculation with a disciplined, risk-managed allocation framework.
+            </p>
+          </div>
+          <form class="lead-form glass" id="heroForm">
+            <h3 data-i18n="form.title">Request Institutional Consultation</h3>
+            <input name="name" type="text" data-i18n-placeholder="form.name" placeholder="Full Name" required />
+            <input name="email" type="email" data-i18n-placeholder="form.email" placeholder="Professional Email" required />
+            <input name="phone" type="tel" data-i18n-placeholder="form.phone" placeholder="Phone Number" required />
+            <button class="pill-btn cta-btn" type="submit" data-i18n="form.submit">Submit Request</button>
+            <small data-i18n="hero.disclaimer">Institutional participation involves market, operational, liquidity, and regulatory risk.</small>
+            <p class="status-msg" aria-live="polite"></p>
+          </form>
+        </div>
+        <div class="container metrics-row">
+          <article class="metric-card reveal"><h4 data-i18n="metrics.gpu">GPU Units Tracked</h4><strong data-counter="125000">0</strong></article>
+          <article class="metric-card reveal"><h4 data-i18n="metrics.dc">Data Center Partnerships</h4><strong data-counter="72">0</strong></article>
+          <article class="metric-card reveal"><h4 data-i18n="metrics.mw">Compute MW Capacity</h4><strong data-counter="410">0</strong></article>
+          <article class="metric-card reveal"><h4 data-i18n="metrics.util">Utilization Rate</h4><strong data-counter="94">0</strong></article>
+        </div>
+      </section>
+
+      <section id="market" class="dark-section section">
+        <div class="glow-ring"></div>
+        <div class="container">
+          <h2 data-i18n="market.title">Market Dynamics</h2>
+          <div class="card-grid four">
+            <article class="insight-card reveal"><h3 data-i18n="market.c1t">Structural GPU Deficit</h3><p data-i18n="market.c1">Demand outpaces high-performance silicon supply, creating persistent allocation scarcity and pricing resilience.</p></article>
+            <article class="insight-card reveal"><h3 data-i18n="market.c2t">Enterprise AI Expansion</h3><p data-i18n="market.c2">Global enterprises are moving from pilots to production-grade AI infrastructure with multi-year compute commitments.</p></article>
+            <article class="insight-card reveal"><h3 data-i18n="market.c3t">Infrastructure Ownership Logic</h3><p data-i18n="market.c3">Owning exposure to capacity layers improves alignment with long-duration enterprise AI infrastructure demand.</p></article>
+            <article class="insight-card reveal"><h3 data-i18n="market.c4t">Energy & Cooling Moat</h3><p data-i18n="market.c4">Power density, cooling design, and grid contracts establish meaningful barriers to competitive replication.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="thesis" class="light-section section angled-top">
+        <div class="container">
+          <h2 data-i18n="thesis.title">Allocation Thesis</h2>
+          <div class="card-grid four">
+            <article class="tile reveal">🧭 <h3 data-i18n="thesis.t1">Structured allocation model</h3></article>
+            <article class="tile reveal">📊 <h3 data-i18n="thesis.t2">Measurable compute signals</h3></article>
+            <article class="tile reveal">⚖️ <h3 data-i18n="thesis.t3">Risk-adjusted exposure</h3></article>
+            <article class="tile reveal">🏗️ <h3 data-i18n="thesis.t4">Infrastructure-backed economics</h3></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="dashboard" class="dark-section section">
+        <div class="container split">
+          <div>
+            <h2 data-i18n="dash.title">Live Metrics Dashboard</h2>
+            <div class="dashboard-metrics">
+              <div><span data-i18n="dash.m1">GPU units deployed</span><strong data-counter="89450">0</strong></div>
+              <div><span data-i18n="dash.m2">Compute capacity (MW)</span><strong data-counter="312">0</strong></div>
+              <div><span data-i18n="dash.m3">Institutional capital exposure ($M)</span><strong data-counter="1650">0</strong></div>
+              <div><span data-i18n="dash.m4">Utilization %</span><strong data-counter="92">0</strong></div>
+            </div>
+          </div>
+          <div class="bars-wrap reveal">
+            <h3 data-i18n="dash.bars">GPU Class Allocation</h3>
+            <div class="bar-item"><label>H100-class</label><div class="bar"><i data-fill="86"></i></div></div>
+            <div class="bar-item"><label>A100-class</label><div class="bar"><i data-fill="72"></i></div></div>
+            <div class="bar-item"><label data-i18n="dash.e">Enterprise tier</label><div class="bar"><i data-fill="64"></i></div></div>
+            <div class="bar-item"><label data-i18n="dash.r">Reserve allocation</label><div class="bar"><i data-fill="38"></i></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="light-section section">
+        <div class="container">
+          <h2 data-i18n="why.title">Why FOSSENTRA</h2>
+          <div class="card-grid three">
+            <article class="premium-card reveal" data-i18n="why.c1">Institutional governance</article>
+            <article class="premium-card reveal" data-i18n="why.c2">Transparent reporting</article>
+            <article class="premium-card reveal" data-i18n="why.c3">Capacity contracts</article>
+            <article class="premium-card reveal" data-i18n="why.c4">Energy discipline</article>
+            <article class="premium-card reveal" data-i18n="why.c5">Risk bands</article>
+            <article class="premium-card reveal" data-i18n="why.c6">Long-duration capital logic</article>
+          </div>
+        </div>
+      </section>
+
+      <section class="dark-section section">
+        <div class="container split infra-block">
+          <div>
+            <h2 data-i18n="infra.title">Compute Infrastructure Visual</h2>
+            <p data-i18n="infra.p1">Compute is a physical asset class shaped by procurement constraints, lead times, and rack-level economics rather than narrative momentum.</p>
+            <p data-i18n="infra.p2">Our enterprise AI infrastructure model tracks capacity utilization, energy efficiency, and contract quality to maintain institutional-grade investment discipline.</p>
+          </div>
+          <div class="rack-wrap reveal">
+            <div class="pulse"></div>
+            <svg viewBox="0 0 300 240" class="rack-svg">
+              <rect x="80" y="20" width="140" height="200" rx="8" />
+              <rect x="95" y="40" width="110" height="20" rx="4" />
+              <rect x="95" y="70" width="110" height="20" rx="4" />
+              <rect x="95" y="100" width="110" height="20" rx="4" />
+              <rect x="95" y="130" width="110" height="20" rx="4" />
+              <rect x="95" y="160" width="110" height="20" rx="4" />
+              <circle cx="115" cy="50" r="3" /><circle cx="115" cy="80" r="3" /><circle cx="115" cy="110" r="3" /><circle cx="115" cy="140" r="3" /><circle cx="115" cy="170" r="3" />
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <section class="light-section section">
+        <div class="container">
+          <h2 data-i18n="insights.title">Investor Insights</h2>
+          <div class="card-grid four">
+            <article class="insight-card light reveal" data-i18n="insights.c1">AI cost curve shift</article>
+            <article class="insight-card light reveal" data-i18n="insights.c2">GPU shortage pricing power</article>
+            <article class="insight-card light reveal" data-i18n="insights.c3">Infrastructure yield logic</article>
+            <article class="insight-card light reveal" data-i18n="insights.c4">Energy efficiency advantage</article>
+          </div>
+        </div>
+      </section>
+
+      <section class="dark-section section">
+        <div class="container split">
+          <div class="governance-block">
+            <h3 data-i18n="gov.doTitle">What We Do</h3>
+            <ul>
+              <li data-i18n="gov.do1">Capacity underwriting with measurable compute signal monitoring.</li>
+              <li data-i18n="gov.do2">Risk-managed allocation framework with scenario controls.</li>
+              <li data-i18n="gov.do3">Institutional reporting and governance cadence.</li>
+            </ul>
+          </div>
+          <div class="governance-block">
+            <h3 data-i18n="gov.avoidTitle">What We Avoid</h3>
+            <ul>
+              <li data-i18n="gov.av1">Unhedged speculative leverage tied to hype cycles.</li>
+              <li data-i18n="gov.av2">Opaque structures without asset-level transparency.</li>
+              <li data-i18n="gov.av3">Overconcentration in single counterparties.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="light-section section">
+        <div class="container">
+          <h2 data-i18n="reviews.title">Investor Reviews</h2>
+          <div class="card-grid three">
+            <article class="review-card reveal"><span class="avatar">ML</span><h4>Maria L.</h4><small>CIO • Zürich <span class="badge" data-i18n="reviews.badge">VERIFIED</span></small><p data-i18n="reviews.r1">Institutional transparency and infrastructure discipline exceeded our due-diligence expectations.</p></article>
+            <article class="review-card reveal"><span class="avatar">JR</span><h4>James R.</h4><small>Partner • London <span class="badge" data-i18n="reviews.badge">VERIFIED</span></small><p data-i18n="reviews.r2">A serious framework for AI infrastructure investment with real asset-level logic.</p></article>
+            <article class="review-card reveal"><span class="avatar">AS</span><h4>Alessandro S.</h4><small>Director • Milan <span class="badge" data-i18n="reviews.badge">VERIFIED</span></small><p data-i18n="reviews.r3">Reporting quality and GPU capacity analytics are exceptional for institutional committees.</p></article>
+            <article class="review-card reveal"><span class="avatar">CF</span><h4>Claire F.</h4><small>Portfolio Head • Paris <span class="badge" data-i18n="reviews.badge">VERIFIED</span></small><p data-i18n="reviews.r4">Risk governance is practical, clear, and aligned with long-duration capital mandates.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="dark-section section">
+        <div class="container">
+          <h2 data-i18n="faq.title">FAQ</h2>
+          <div class="faq-list" id="faqList"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="light-section section final-cta">
+        <div class="container split">
+          <div>
+            <h2 data-i18n="cta.title">Position your portfolio for AI infrastructure scale.</h2>
+            <p data-i18n="cta.p">Request a private consultation to evaluate institutional capital exposure, governance scope, and risk-managed entry into enterprise AI infrastructure.</p>
+          </div>
+          <form class="lead-form" id="ctaForm">
+            <input name="name" type="text" data-i18n-placeholder="form.name" placeholder="Full Name" required />
+            <input name="email" type="email" data-i18n-placeholder="form.emailShort" placeholder="Email" required />
+            <input name="phone" type="tel" data-i18n-placeholder="form.phoneShort" placeholder="Phone" required />
+            <button class="pill-btn cta-btn" type="submit" data-i18n="cta.button">Request Private Consultation</button>
+            <p class="status-msg" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer dark-section">
+      <div class="container footer-wrap">
+        <span>© 2026 FOSSENTRA</span>
+        <div class="footer-links">
+          <button class="footer-link" id="privacyOpen" data-i18n="footer.privacy">Privacy Policy</button>
+          <a href="#" data-i18n="footer.terms">Terms</a>
+          <a href="#contact" data-i18n="footer.contact">Contact</a>
+        </div>
+      </div>
+      <p class="container tiny" data-i18n="footer.disclaimer">This communication is for professional and institutional audiences and is not investment advice.</p>
+    </footer>
+
+    <div class="modal" id="privacyModal" aria-hidden="true">
+      <div class="modal-card">
+        <button class="modal-close" id="privacyClose" aria-label="close">×</button>
+        <h3 data-i18n="privacy.title">Privacy Policy</h3>
+        <div class="modal-scroll" id="privacyContent"></div>
+        <button class="pill-btn" id="privacyDone" data-i18n="privacy.close">Close</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
